@@ -1,0 +1,305 @@
+/**
+ * 主题色	
+ * 副主题	
+ * 字体色	#424242
+ * 副字体	#767676
+ * 背景色	#F5F5F9
+ * 线色		#BAC0C3
+ */
+.page {
+	display: flex;
+	box-sizing: border-box;
+	width: 100vw;
+	min-height: 100vh;
+	max-height: 100%;
+	color: #424242;
+	font-size: 0.9rem;
+	flex-direction: column;
+	background-color: #F5F5F9;
+}
+
+/* 蓝色标题左边表框 */
+.l-b-t-primary {
+	border-left: 5px solid #2979ff;
+	padding-left: 10rpx;
+}
+
+/* 绿色标题左边表框 */
+.l-b-t-success {
+	border-left: 5px solid #19be6b;
+	padding-left: 10rpx;
+}
+
+/* 橙色标题左边表框 */
+.l-b-t-warning {
+	border-left: 5px solid #ff9900;
+	padding-left: 10rpx;
+}
+
+/* 灰色标题左边表框 */
+.l-b-t-info {
+	border-left: 5px solid #909399;
+	padding-left: 10rpx;
+}
+
+/* 红色标题左边表框 */
+.l-b-t-error {
+	border-left: 5px solid #fa3534;
+	padding-left: 10rpx;
+}
+
+
+/* 空两格 */
+.k2 {
+	text-indent: 2em;
+}
+
+/* 蓝背景色 */
+.bg-primary {
+	background-color: #2979ff;
+}
+
+/* 绿背景色 */
+.bg-success {
+	background-color: #19be6b;
+}
+
+/* 橙背景色 */
+.bg-warning {
+	background-color: #ff9900;
+}
+
+/* 灰背景色 */
+.bg-info {
+	background-color: #909399;
+}
+
+/* 红背景色 */
+.bg-error {
+	background-color: #fa3534;
+}
+
+/* 白背景色 */
+.bg-white {
+	background-color: #fff;
+}
+
+/* 绿色字 */
+.c-success {
+	color: #19be6b;
+}
+
+/* 蓝色字 */
+.c-primary {
+	color: #2979ff;
+}
+
+/* 橙色字 */
+.c-warning {
+	color: #ff9900;
+}
+
+/* 灰色字 */
+.c-info {
+	color: #909399;
+}
+
+/* 深灰色 */
+.c-info-dark {
+	color: #82848a;
+}
+
+/* 红色字 */
+.c-error {
+	color: #fa3534;
+}
+
+/* 白色字 */
+.c-white {
+	color: #fff;
+}
+
+/* 阴影 */
+.bs {
+	box-shadow: 2px 3px 4px rgb(0 0 0 / 20%);
+}
+
+/* 截取,超出显示... */
+.cut {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* 副标题颜色 */
+.subtitle {
+	color: #BAC0C3;
+}
+
+.subtitle2 {
+	color: #767676;
+}
+
+/* 加粗 */
+.bold {
+	font-weight: 600;
+}
+
+/* 提示框 - 橙色 */
+.tips-warning {
+	width: 90%;
+	margin: 20rpx auto;
+	line-height: 1.5rem;
+	border: 1px solid #FCBE71;
+	background-color: #FDF6ED;
+	padding: 20rpx;
+	border-radius: 10rpx;
+	box-sizing: border-box;
+}
+
+/* 提示框 - 蓝色 */
+.tips-primary {
+	width: 90%;
+	margin: 20rpx auto;
+	line-height: 1.5rem;
+	border: 1px solid #A0CFFF;
+	background-color: #EDF5FF;
+	padding: 20rpx;
+	border-radius: 10rpx;
+	box-sizing: border-box;
+}
+
+/* 提示框 - 绿色 */
+.tips-success {
+	width: 90%;
+	margin: 20rpx auto;
+	line-height: 1.5rem;
+	border: 1px solid #71D5A2;
+	background-color: #DBF1E2;
+	padding: 20rpx;
+	border-radius: 10rpx;
+	box-sizing: border-box;
+}
+
+/* 提示框 - 红色 */
+.tips-error {
+	width: 90%;
+	margin: 20rpx auto;
+	line-height: 1.5rem;
+	border: 1px solid #FAB7B6;
+	background-color: #FEF0F0;
+	padding: 20rpx;
+	border-radius: 10rpx;
+	box-sizing: border-box;
+}
+
+/* 提示框 - 灰色 */
+.tips-info {
+	width: 90%;
+	margin: 20rpx auto;
+	line-height: 1.5rem;
+	border: 1px solid #C8C9CC;
+	background-color: #F4F4F5;
+	padding: 20rpx;
+	border-radius: 10rpx;
+	box-sizing: border-box;
+}
+
+u-input {
+	width: 100%;
+}
+
+/* 搜索框 */
+.soBox {
+	display: flex;
+	background-color: #fff;
+	padding: 20rpx;
+	flex-direction: column;
+	box-sizing: border-box;
+}
+
+.soBtn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10rpx;
+	color: #fff;
+	font-weight: 900;
+	/* height: 73rpx; */
+	/* 单行 */
+	/* height: 164rpx; */
+	/* 两行 */
+	height: 73rpx;
+}
+
+.soInput {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20rpx;
+}
+
+.soInputLabel {
+	flex: 1;
+	font-weight: 900;
+}
+
+.soInputValue {
+	flex: 4;
+	display: flex;
+	align-items: center;
+}
+
+/* 搜索列表 */
+.soList {
+	display: flex;
+	box-sizing: border-box;
+	flex-direction: column;
+	width: 93%;
+	margin: 30rpx auto 0 auto;
+	background-color: #fff;
+	border-radius: 10rpx;
+	padding: 25rpx;
+}
+
+.soListTitle {
+	font-size: 1rem;
+	font-weight: 600;
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+	line-height: 1.9rem;
+}
+
+.soListContent {
+	line-height: 1.6rem;
+}
+
+/* 灵签 */
+.chouqianBox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 30rpx;
+}
+
+.chouqianBtn {
+	margin-top: 30rpx;
+}
+
+.qianBox {
+	padding: 20rpx;
+}
+
+.qianTitle {
+	font-size: 1rem;
+	font-weight: 700;
+	margin-top: 20rpx;
+}
+
+.qianContent {
+	font-size: 0.9rem;
+	margin-top: 10rpx;
+	line-height: 1.6rem;
+}

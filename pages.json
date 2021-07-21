@@ -1,0 +1,531 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	// "condition": { //模式配置，仅开发期间生效
+	// 	"current": 0, //当前激活的模式（list 的索引项）
+	// 	"list": [{
+	// 		"name": "test", //模式名称
+	// 		"path": "pagesF/pages/yuming/jiage" //启动页面，必选
+	// 	}]
+	// },
+	"pages": [{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "API演示"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"subPackages": [{
+			"root": "pagesA",
+			"pages": [{
+					"path": "pages/qiming/gushi",
+					"style": {
+						"navigationBarTitleText": "古诗起名"
+					}
+				},
+				{
+					"path": "pages/qiming/nanbaobao",
+					"style": {
+						"navigationBarTitleText": "男宝宝起名"
+					}
+				},
+				{
+					"path": "pages/qiming/nvbaobao",
+					"style": {
+						"navigationBarTitleText": "女宝宝起名"
+					}
+				},
+				{
+					"path": "pages/qiming/gongsi",
+					"style": {
+						"navigationBarTitleText": "公司起名"
+					}
+				},
+				{
+					"path": "pages/qiming/xingming",
+					"style": {
+						"navigationBarTitleText": "姓名分析"
+					}
+				}
+			]
+		},
+		{
+			"root": "pagesB",
+			"pages": [{
+					"path": "pages/lingqian/guanyin",
+					"style": {
+						"navigationBarTitleText": "观音灵签"
+					}
+				},
+				{
+					"path": "pages/lingqian/luohan",
+					"style": {
+						"navigationBarTitleText": "罗汉灵签"
+					}
+				},
+				{
+					"path": "pages/lingqian/baoshengdadi",
+					"style": {
+						"navigationBarTitleText": "保生大帝灵签"
+					}
+				},
+				{
+					"path": "pages/lingqian/fozu",
+					"style": {
+						"navigationBarTitleText": "佛祖灵签"
+					}
+				},
+				{
+					"path": "pages/lingqian/chegong",
+					"style": {
+						"navigationBarTitleText": "车公灵签"
+					}
+				},
+				{
+					"path": "pages/lingqian/zhuge",
+					"style": {
+						"navigationBarTitleText": "诸葛神算"
+					}
+				},
+				{
+					"path": "pages/lingqian/guandi",
+					"style": {
+						"navigationBarTitleText": "关帝灵签"
+					}
+				},
+				{
+					"path": "pages/lingqian/yudi",
+					"style": {
+						"navigationBarTitleText": "玉帝灵签"
+					}
+				},
+				{
+					"path": "pages/lingqian/dizangwang",
+					"style": {
+						"navigationBarTitleText": "地藏王菩萨灵签"
+					}
+				},
+				{
+					"path": "pages/lingqian/taishanglaojun",
+					"style": {
+						"navigationBarTitleText": "太上老君灵签"
+					}
+				},
+				{
+					"path": "pages/lingqian/lvzu",
+					"style": {
+						"navigationBarTitleText": "吕祖灵签"
+					}
+				},
+				{
+					"path": "pages/lingqian/caishen",
+					"style": {
+						"navigationBarTitleText": "财神灵签"
+					}
+				},
+				{
+					"path": "pages/lingqian/wenshupusa",
+					"style": {
+						"navigationBarTitleText": "文殊菩萨灵签"
+					}
+				},
+				{
+					"path": "pages/lingqian/yuelao",
+					"style": {
+						"navigationBarTitleText": "月老灵签"
+					}
+				},
+				{
+					"path": "pages/lingqian/mazu",
+					"style": {
+						"navigationBarTitleText": "妈祖灵签"
+					}
+				},
+				{
+					"path": "pages/lingqian/beidi",
+					"style": {
+						"navigationBarTitleText": "北帝灵签"
+					}
+				},
+				{
+					"path": "pages/lingqian/wanggong",
+					"style": {
+						"navigationBarTitleText": "王公灵签"
+					}
+				},
+				{
+					"path": "pages/lingqian/qingshuizushi",
+					"style": {
+						"navigationBarTitleText": "清水祖师灵签"
+					}
+				},
+				{
+					"path": "pages/lingqian/tudigong",
+					"style": {
+						"navigationBarTitleText": "土地公灵签"
+					}
+				},
+				{
+					"path": "pages/lingqian/huangdaxian",
+					"style": {
+						"navigationBarTitleText": "黄大仙灵签"
+					}
+				},
+				{
+					"path": "pages/lingqian/zhougong",
+					"style": {
+						"navigationBarTitleText": "周公灵签"
+					}
+				},
+				{
+					"path": "pages/lingqian/zhouyi",
+					"style": {
+						"navigationBarTitleText": "周易算卦"
+					}
+				}
+			]
+		},
+		{
+			"root": "pagesC",
+			"pages": [{
+					"path": "pages/yixue/chenggu",
+					"style": {
+						"navigationBarTitleText": "称骨算命"
+					}
+				},
+				{
+					"path": "pages/yixue/gongdu",
+					"style": {
+						"navigationBarTitleText": "宫度论命"
+					}
+				},
+				{
+					"path": "pages/yixue/shengxiao",
+					"style": {
+						"navigationBarTitleText": "生肖查询"
+					}
+				},
+				{
+					"path": "pages/yixue/xingzuo",
+					"style": {
+						"navigationBarTitleText": "星座查询"
+					}
+				},
+				{
+					"path": "pages/yixue/shengnannv",
+					"style": {
+						"navigationBarTitleText": "生男生女"
+					}
+				},
+				{
+					"path": "pages/yixue/jishi",
+					"style": {
+						"navigationBarTitleText": "吉时查询"
+					}
+				},
+				{
+					"path": "pages/yixue/zhanbu",
+					"style": {
+						"navigationBarTitleText": "占卜吉凶"
+					}
+				},
+				{
+					"path": "pages/yixue/zhiwen",
+					"style": {
+						"navigationBarTitleText": "指纹测试"
+					}
+				},
+				{
+					"path": "pages/yixue/haoma",
+					"style": {
+						"navigationBarTitleText": "号码吉凶"
+					}
+				},
+				{
+					"path": "pages/yixue/wuxing",
+					"style": {
+						"navigationBarTitleText": "五行查询"
+					}
+				},
+				{
+					"path": "pages/yixue/zhouyi",
+					"style": {
+						"navigationBarTitleText": "周易算命"
+					}
+				},
+				{
+					"path": "pages/yixue/bazichaxun",
+					"style": {
+						"navigationBarTitleText": "八字查询"
+					}
+				},
+				{
+					"path": "pages/yixue/baziyuncheng",
+					"style": {
+						"navigationBarTitleText": "八字运程"
+					}
+				},
+				{
+					"path": "pages/yixue/jiuxing",
+					"style": {
+						"navigationBarTitleText": "九星论命"
+					}
+				},
+				{
+					"path": "pages/yixue/nongli",
+					"style": {
+						"navigationBarTitleText": "农历算命"
+					}
+				},
+				{
+					"path": "pages/yixue/guiguzi",
+					"style": {
+						"navigationBarTitleText": "鬼谷子算命"
+					}
+				},
+				{
+					"path": "pages/yixue/shengri",
+					"style": {
+						"navigationBarTitleText": "生日算命"
+					}
+				},
+				{
+					"path": "pages/yixue/wugesancai",
+					"style": {
+						"navigationBarTitleText": "五格三才"
+					}
+				},
+				{
+					"path": "pages/yixue/sanshishuchayinyuan",
+					"style": {
+						"navigationBarTitleText": "三世书查婚姻"
+					}
+				},
+				{
+					"path": "pages/yixue/sanshishucecaiyun",
+					"style": {
+						"navigationBarTitleText": "三世书测财运"
+					}
+				},
+				{
+					"path": "pages/yixue/shengxiaoyuncheng",
+					"style": {
+						"navigationBarTitleText": "生肖运程"
+					}
+				},
+				{
+					"path": "pages/yixue/taohuayun",
+					"style": {
+						"navigationBarTitleText": "测桃花运"
+					}
+				},
+				{
+					"path": "pages/yixue/xingxiu",
+					"style": {
+						"navigationBarTitleText": "二十八星宿"
+					}
+				},
+				{
+					"path": "pages/yixue/taluopai",
+					"style": {
+						"navigationBarTitleText": "塔罗牌"
+					}
+				},
+				{
+					"path": "pages/yixue/zhouyicezi",
+					"style": {
+						"navigationBarTitleText": "周易测字"
+					}
+				},
+				{
+					"path": "pages/yixue/ceyingwenming",
+					"style": {
+						"navigationBarTitleText": "测英文名"
+					}
+				},
+				{
+					"path": "pages/yixue/cepiancaiyun",
+					"style": {
+						"navigationBarTitleText": "测偏财运"
+					}
+				}
+			]
+		},
+		{
+			"root": "pagesD",
+			"pages": [{
+					"path": "pages/yuanfen/xuexing",
+					"style": {
+						"navigationBarTitleText": "血型配对"
+					}
+				},
+				{
+					"path": "pages/yuanfen/shengxiao",
+					"style": {
+						"navigationBarTitleText": "生肖配对"
+					}
+				},
+				{
+					"path": "pages/yuanfen/shouji",
+					"style": {
+						"navigationBarTitleText": "手机配对"
+					}
+				},
+				{
+					"path": "pages/yuanfen/shengri",
+					"style": {
+						"navigationBarTitleText": "生日配对"
+					}
+				},
+				{
+					"path": "pages/yuanfen/bazihehun",
+					"style": {
+						"navigationBarTitleText": "八字合婚"
+					}
+				},
+				{
+					"path": "pages/yuanfen/xingming",
+					"style": {
+						"navigationBarTitleText": "姓名配对"
+					}
+				},
+				{
+					"path": "pages/yuanfen/yinyuan",
+					"style": {
+						"navigationBarTitleText": "姻缘测试"
+					}
+				}
+			]
+		},
+		{
+			"root": "pagesE",
+			"pages": [{
+					"path": "pages/shangbiao/qiming",
+					"style": {
+						"navigationBarTitleText": "商标起名"
+					}
+				},
+				{
+					"path": "pages/shangbiao/ruanjian",
+					"style": {
+						"navigationBarTitleText": "商标软件"
+					}
+				},
+				{
+					"path": "pages/shangbiao/chaxun",
+					"style": {
+						"navigationBarTitleText": "商标查询"
+					}
+				},
+				{
+					"path": "pages/shangbiao/xiangqing",
+					"style": {
+						"navigationBarTitleText": "商标详情"
+					}
+				},
+				{
+					"path": "pages/shangbiao/jiance",
+					"style": {
+						"navigationBarTitleText": "商标监测"
+					}
+				},
+				{
+					"path": "pages/shangbiao/guoqi",
+					"style": {
+						"navigationBarTitleText": "过期查询"
+					}
+				},
+				{
+					"path": "pages/shangbiao/tongji",
+					"style": {
+						"navigationBarTitleText": "商标统计"
+					}
+				}
+			]
+		},
+		{
+			"root": "pagesF",
+			"pages": [{
+					"path": "pages/yuming/jiage",
+					"style": {
+						"navigationBarTitleText": "域名价格"
+					}
+				},
+				{
+					"path": "pages/yuming/houzhui",
+					"style": {
+						"navigationBarTitleText": "域名后缀"
+					}
+				},
+				{
+					"path": "pages/yuming/chaxun",
+					"style": {
+						"navigationBarTitleText": "域名查询"
+					}
+				},
+				{
+					"path": "pages/yuming/diqu",
+					"style": {
+						"navigationBarTitleText": "地区代码"
+					}
+				},
+				{
+					"path": "pages/yuming/zhuce",
+					"style": {
+						"navigationBarTitleText": "域名注册"
+					}
+				},
+				{
+					"path": "pages/yuming/xufei",
+					"style": {
+						"navigationBarTitleText": "域名续费"
+					}
+				},
+				{
+					"path": "pages/yuming/shuhui",
+					"style": {
+						"navigationBarTitleText": "域名赎回"
+					}
+				},
+				{
+					"path": "pages/yuming/xinxi",
+					"style": {
+						"navigationBarTitleText": "域名信息"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "API演示",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff"
+	},
+	"tabBar": {
+		"color": "#82848a",
+		"selectedColor": "#5099FF",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/home/index",
+				"iconPath": "/static/images/stars.png",
+				"selectedIconPath": "/static/images/stars.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"iconPath": "/static/images/stars.png",
+				"selectedIconPath": "/static/images/stars.png",
+				"text": "我的"
+			}
+		]
+	}
+}
